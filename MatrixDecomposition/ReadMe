@@ -1,0 +1,11 @@
+#Matrix Decomposition
+
+**Inputs:**
+A- input matrix, must be square
+**Outputs:**
+L- lower triangular matrix 
+U- upper triangular matrix
+P- permutation or pivot matrix
+
+This algorithm performs the LU decomposition of a matrix using partial pivoting.
+

@@ -1,0 +1,11 @@
+#Numerical Integration
+
+**Inputs:**
+X - x values of the data table
+Y - y values of the data table
+**Outputs:**
+I - approximate integral of the given data
+
+This algorithm uses Simpson’s ⅓ rule to approximate the integral of a data table. It is good for fast approximations but does not include a component that calculates approximate error. 
+
+Note: This algorithm uses the trapezoidal rule on the last interval if there are an odd number of intervals between data points. The user is warned in these cases.

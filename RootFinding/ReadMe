@@ -1,0 +1,15 @@
+#Root Finding
+
+**Inputs:**
+Func- the function being evaluated
+Xl- lower bound
+Xu- upper bound
+Es- desired relative error
+Maxit- maximum number of iterations
+**Outputs:**
+Root- the approximate root location
+Fx- the function evaluated at that location
+Ea- approximate relative error
+Iter- number of performed iterations
+
+This algorithm uses the false position method to locate the root of a given function within the defined interval. Maxit defaults to 200 and ea defaults to 0.0001. When not otherwise defined.

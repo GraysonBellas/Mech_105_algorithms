@@ -1,0 +1,16 @@
+#Linear Regression
+
+**Inputs:** 
+X - x values of the data table
+Y - y values of the data table
+**Outputs:**
+fX - sorted x values with outliers removed
+fY - sorted y values with outliers removed
+Slope - slope of the linear regression
+Intercept -intercept of the linear regression
+Rsquared -R^2 a.k.a coefficient of determination
+
+This algorithm is used to find the linear regression of a data set. It automatically sorts the data and removes outliers according to the Mendenhall and Sincich definition. It also calculates the Rsquared value. 
+
+Note: This algorithm does not linearize the data and therefore should only be used for linear relationships.
+
